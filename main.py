@@ -1,6 +1,5 @@
-from graphics import Window, Line, Point
+from graphics import Window
 from maze import Maze
-from cell import Cell
 import sys
 
 def main():
@@ -24,6 +23,7 @@ def main():
     else:
         print("maze cannot be solved!")
     window.wait_for_close()
+
 
 if __name__ == "__main__":
     main()
